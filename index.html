@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>README Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>README Generator</h1>
+  <form id="readmeForm">
+    <label>Project Title: <input type="text" id="title" required></label><br>
+    <label>Description: <textarea id="description" required></textarea></label><br>
+    <label>Installation: <textarea id="installation"></textarea></label><br>
+    <label>Usage: <textarea id="usage"></textarea></label><br>
+    <label>License: <input type="text" id="license"></label><br>
+    <button type="submit">Generate README</button>
+  </form>
+
+  <h2>Output</h2>
+  <pre id="output"></pre>
+
+  <script src="script.js"></script>
+</body>
+</html>
